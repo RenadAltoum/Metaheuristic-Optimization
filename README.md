@@ -47,6 +47,7 @@ To install matplotlib: pip install matplotlib
 but you can modify them in the function: run_batch_simulated_annealing(...)
 ## What Happens During Execution
 When you run the program, it performs these steps automatically:
+
 1.Reads the input dataset (e.g., 100, 200, 500 items).
 
 2.Runs the Simulated Annealing algorithm with pre-defined parameters.
@@ -58,6 +59,7 @@ Items: 100
 Best Profit: 2594
 Best Weight: 998
 Time: 2.14 seconds
+
 4. Generates the result files and visualizations automatically.
 
 
