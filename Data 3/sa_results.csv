@@ -1,0 +1,7 @@
+file,items,capacity,best_profit,best_weight,fill_ratio,avg_time_sec,iterations,num_improvements,plot_path
+knapPI_1_100_1000_1_clean.txt,100,1000,9049,999,0.999,0.0628,24000,19,sa_plots\knapPI_1_100_1000_1_clean_history.png
+knapPI_1_200_1000_1_clean.txt,200,1000,10878,994,0.994,0.198,66000,25,sa_plots\knapPI_1_200_1000_1_clean_history.png
+knapPI_1_500_1000_1_clean.txt,500,1000,17650,999,0.999,0.5521,150000,53,sa_plots\knapPI_1_500_1000_1_clean_history.png
+knapPI_2_100_1000_1_clean.txt,100,1000,1401,999,0.999,0.0943,39000,16,sa_plots\knapPI_2_100_1000_1_clean_history.png
+knapPI_2_200_1000_1_clean.txt,200,1000,1471,995,0.995,0.1632,66000,14,sa_plots\knapPI_2_200_1000_1_clean_history.png
+knapPI_2_500_1000_1_clean.txt,500,1000,1762,991,0.991,0.5562,150000,20,sa_plots\knapPI_2_500_1000_1_clean_history.png
