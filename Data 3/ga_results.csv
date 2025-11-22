@@ -1,0 +1,7 @@
+file,items,capacity,best_value,best_weight,fill_ratio,avg_time_sec,generations,num_improvements,plot_path,solution_path
+knapPI_1_100_1000_1_clean.txt,100,1000,9147,985,0.985,3.1919,500,6,ga_plots/knapPI_1_100_1000_1_clean_history.png,ga_solutions/knapPI_1_100_1000_1_clean_bestValue.txt
+knapPI_1_200_1000_1_clean.txt,200,1000,11238,987,0.987,39.3549,1000,8,ga_plots/knapPI_1_200_1000_1_clean_history.png,ga_solutions/knapPI_1_200_1000_1_clean_bestValue.txt
+knapPI_2_500_1000_1_clean.txt,500,1000,2215,999,0.999,937.2106,2500,6,ga_plots/knapPI_2_500_1000_1_clean_history.png,ga_solutions/knapPI_2_500_1000_1_clean_bestValue.txt
+knapPI_1_500_1000_1_clean.txt,500,1000,18582,997,0.997,959.0853,2500,11,ga_plots/knapPI_1_500_1000_1_clean_history.png,ga_solutions/knapPI_1_500_1000_1_clean_bestValue.txt
+knapPI_2_200_1000_1_clean.txt,200,1000,1617,998,0.998,40.046,1000,1,ga_plots/knapPI_2_200_1000_1_clean_history.png,ga_solutions/knapPI_2_200_1000_1_clean_bestValue.txt
+knapPI_2_100_1000_1_clean.txt,100,1000,1497,992,0.992,3.2574,500,4,ga_plots/knapPI_2_100_1000_1_clean_history.png,ga_solutions/knapPI_2_100_1000_1_clean_bestValue.txt
