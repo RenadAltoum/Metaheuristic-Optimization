@@ -26,13 +26,14 @@ Python 3.8+
 
 ### Libraries:
 
-Built-in: - os\
-- math\
-- time\
-- random\
+Built-in:
+- os
+- math
+- time
+- random
 - csv
 
-External: - matplotlib\ pandas
+External: - matplotlib pandas
 
 Install with:
 
@@ -140,14 +141,16 @@ plot_path: File path of the improvement graph.
 A second part of the project implements the Genetic Algorithm (GA) to
 solve the same datasets.
 
-GA uses: - Population-based search\
-- Selection\
-- Crossover\
-- Mutation\
+GA uses:
+- Population-based search
+- Selection
+- Crossover
+- Mutation
 - Multi-generation evolution
 
-After running GA, the program prints: - Best profit\
-- Best weight\
+After running GA, the program prints:
+- Best profit
+- Best weight
 - Average runtime
 
 These results can be directly compared with SA.
