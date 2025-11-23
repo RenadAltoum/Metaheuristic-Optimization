@@ -44,16 +44,29 @@ Install with:
 
 ## How to Run the Project
 
-1.Place all scripts and data files in the same folder.
 
-2.Open the folder in Visual Studio Code.
+### Simulated Annealing (SA)
 
-3.Open the file sa_knapsack_batch.py.
+1. Place all scripts and data files in the same folder.  
+2. Open the folder in **Visual Studio Code**.  
+3. Open `sa_knapsack_batch.py`.  
+4. Press **Run** (or run in terminal with):  
+   ```bash
+   python sa_knapsack_batch.py
+5.  Default parameters are set inside the function:\
+    `run_batch_simulated_annealing(...)`
 
-4.Press Run  (or run in terminal with): python sa_knapsack_batch.py
+### Genetic Algorithm (GA)
 
-5.The default parameters at the end of the file are already set correctly,
-but you can modify them in the function: run_batch_simulated_annealing(...)
+1. Place all scripts and data files in the same folder.  
+2. Open the folder in **Visual Studio Code**.  
+3. Open `genetic_knapsack.py`.  
+4. Press **Run** (or run in terminal with):  
+   ```bash
+    python ga_knapsack.py
+5.  Default parameters are set inside the function:\
+    ` run_all_instances(...)`
+    
 ## What Happens During Execution
 When you run the program, it performs these steps automatically:
 
