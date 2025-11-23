@@ -24,13 +24,21 @@ Make sure you have the following installed before running the project:
 
 Python 3.8+
 
-Libraries:
+### Libraries:
 
-Built-in: os, math, time, random, csv
+Built-in: - os\
+- math\
+- time\
+- random\
+- csv
 
-External: matplotlib
+External: - matplotlib\ pandas
 
-To install matplotlib: pip install matplotlib
+Install with:
+
+    pip install matplotlib pandas
+
+
 
 
 ## How to Run the Project
@@ -129,20 +137,28 @@ num_improvements: How many times the best solution improved.
 plot_path: File path of the improvement graph.
 
 ## Genetic Algorithm (GA)
-A second part of the project implements the Genetic Algorithm (GA) to solve the same Knapsack datasets.
-GA uses:
+A second part of the project implements the Genetic Algorithm (GA) to
+solve the same datasets.
 
-Population-based search
+GA uses: - Population-based search\
+- Selection\
+- Crossover\
+- Mutation\
+- Multi-generation evolution
 
-Selection, Crossover, and Mutation operators
+After running GA, the program prints: - Best profit\
+- Best weight\
+- Average runtime
 
-Multiple generations to evolve better solutions
+These results can be directly compared with SA.
+## Recommended GA Parameters
 
-After running GA:
+| Dataset Size | Population Size | Crossover Rate | Mutation Rate | Generations | Elitism | Selection Method |
+|--------------|----------------|----------------|---------------|-------------|---------|-----------------|
+| 100 items    | 100            | 0.7            | 0.01          | 500         | yes     | tournament      |
+| 200 items    | 200            | 0.7            | 0.01          | 1000        | yes     | tournament      |
+| 500 items    | 500            | 0.7            | 0.01          | 2500        | yes     | tournament      |
 
-The program prints best profit, best weight, and average runtime.
-
-Results can be compared directly with SA to evaluate algorithm performance.
 
 ## Comparison Between SA and GA  
 
