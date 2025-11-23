@@ -266,7 +266,7 @@ def run_all_instances(folder="."):
 
         # Save binary solution
         clean_name = filename.replace(".txt", "")
-        txt_path = f"ga_solutions/{clean_name}_bestValue.txt"
+        txt_path = f"ga_solutions/{clean_name}_best_vector.txt"
         with open(txt_path, "w") as f:
             f.write("".join(str(bit) for bit in best_chrom))
 
