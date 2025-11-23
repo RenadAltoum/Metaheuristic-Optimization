@@ -175,6 +175,16 @@ These results can be directly compared with SA.
 | 200 items    | 200            | 0.7            | 0.01          | 1000        | yes     | tournament      |
 | 500 items    | 500            | 0.7            | 0.01          | 2500        | yes     | tournament      |
 
+## GA Fitness Function
+
+The fitness function used in this Genetic Algorithm is an **objective-based maximization fitness**.  
+It evaluates each candidate solution (chromosome) based on the **total profit** of the selected items.  
+
+- If the total weight of selected items does **not exceed the knapsack capacity**, the fitness equals the total profit.  
+- If the solution exceeds the capacity, it is considered **invalid** and assigned a fitness of `0`.  
+
+This approach ensures that the algorithm favors solutions that maximize profit while strictly respecting the knapsack's weight constraint.
+
 
 ## Comparison Between SA and GA  
 
