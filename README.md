@@ -131,7 +131,42 @@ Path to plot image
 
 *_best_vector.txt → Binary vector (0/1) showing selected items in the best solution.
 
+## Simulated Annealing SA
+A main part of the project implements the Simulated Annealing (SA) algorithm to solve the same Knapsack datasets.
 
+SA uses:
+
+Single-solution local search
+
+Temperature-based exploration
+
+Cooling schedule (decreasing temperature)
+
+Random neighbor generation
+
+Probabilistic acceptance of worse solutions (to escape local minima)
+
+After running SA, the program prints:
+
+Best profit
+
+Best weight
+
+Average runtime
+
+Number of improvements
+
+Iterations performed
+
+The script also generates:
+
+A progress plot showing how the solution improved over time
+
+A CSV file containing improvement history
+
+A binary best-vector file (0/1) indicating selected items
+
+These results can be directly compared with GA to evaluate performance, convergence behavior, and runtime efficiency. 
 
 ## Recommended SA Parameters
 Each dataset has its own initial temperature and cooling rate tuned for best performance.
