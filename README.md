@@ -88,11 +88,11 @@ Example output:
 
 Items: 100
 
-Best Profit: 2594
+Best Profit: 9049
 
-Best Weight: 998
+Best Weight: 999
 
-Time: 2.14 seconds
+Time: 0.060 seconds
 
 4. Generates the result files and visualizations automatically.
 
