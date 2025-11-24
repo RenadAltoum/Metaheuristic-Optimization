@@ -92,7 +92,7 @@ Best Profit: 9049
 
 Best Weight: 999
 
-Time: 0.060 seconds
+Time: 0.051 seconds
 
 4. Generates the result files and visualizations automatically.
 
