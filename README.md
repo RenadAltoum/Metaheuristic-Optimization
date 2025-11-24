@@ -13,11 +13,19 @@ Each dataset file follows this structure: -First line: Profit Weight,
 
 ## data file names
 knapPI_1_100_1000_1_clean.txt
+
+knapPI_1_200_1000_1_clean.txt
+
+knapPI_1_500_1000_1_clean.txt
+
+knapPI_2_100_1000_1_clean.txt
+
 knapPI_2_200_1000_1_clean.txt
-knapPI_3_500_1000_1_clean.txt
+
+knapPI_2_500_1000_1_clean.txt
 
 These files contain data for 100, 200, and 500 items respectively.
-Each dataset has its own initial temperature and cooling rate tuned for best performance.
+
 
 ## Requirements
 Make sure you have the following installed before running the project:
@@ -126,6 +134,7 @@ Path to plot image
 
 
 ## Recommended SA Parameters
+Each dataset has its own initial temperature and cooling rate tuned for best performance.
 
 | Dataset Size | initial_temperature | cooling_rate | iterations_per_item_factor | early_stop_no_improve | adaptive_cooling |
 |---------------|---------------------|---------------|-----------------------------|-----------------------|------------------|
