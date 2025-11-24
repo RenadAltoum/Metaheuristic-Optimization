@@ -136,35 +136,23 @@ A main part of the project implements the Simulated Annealing (SA) algorithm to 
 
 SA uses:
 
-Single-solution local search
-
-Temperature-based exploration
-
-Cooling schedule (decreasing temperature)
-
-Random neighbor generation
-
-Probabilistic acceptance of worse solutions (to escape local minima)
+  - Single-solution local search
+  - Temperature-based exploration
+  - Cooling schedule (decreasing temperature)
+  - Random neighbor generation
+  - Probabilistic acceptance of worse solutions (to escape local minima)
 
 After running SA, the program prints:
 
-Best profit
-
-Best weight
-
-Average runtime
-
-Number of improvements
-
-Iterations performed
-
-The script also generates:
-
-A progress plot showing how the solution improved over time
-
-A CSV file containing improvement history
-
-A binary best-vector file (0/1) indicating selected items
+  - Best profit
+  - Best weight
+  - Average runtime
+  - Number of improvements
+  - Iterations performed
+  - The script also generates:
+  - A progress plot showing how the solution improved over time
+  - A CSV file containing improvement history
+  - A binary best-vector file (0/1) indicating selected items
 
 These results can be directly compared with GA to evaluate performance, convergence behavior, and runtime efficiency. 
 
